@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration</title>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0%;
+    }
+    :placeholder-shown{
+        color: rgb(255, 0, 0);
+        size: 40px;
+    }
+    
+    .ass{
+        
+        border-radius: 30px;
+        padding: 10px;
+   
+    }
+    button{
+        width: 150px;
+        height: 80px;
+        background-color: rgb(253, 0, 0);
+        border-radius: 30px;
+    }
+    .kk{
+        width: 50px;
+        height: 50px;
+    }
+    .wawa{
+        display: inline-block;
+        text-align: center;
+        padding-left: 10%;
+        background-color: rgb(44, 44, 43);
+        border-radius: 50px;
+
+    }
+    input{
+        display: flex;
+        width: 350px;
+        height: 40px;
+      
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    
+    
+    body{
+        background-color: rgb(107, 103, 45);
+
+    }
+    span{
+     
+        color: aqua;
+    }
+    h1{
+        text-align: center;
+       
+        text-size-adjust: 40px;
+        color: rgb(255, 255, 255);
+        size: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    
+        
+    }
+    .lll{
+        font-size: xx-large;
+        font-style: oblique;
+        margin-bottom: 100px;
+        }
+    .oo{
+      
+        text-align: center;
+        width: 100%;
+     
+        
+    }
+    .ana{
+        width: 100%;
+        
+       
+    }
+    ul{
+        text-align: center;
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        color: aqua;
+        background-color: black;
+        margin-bottom: 40px;
+        position: fixed;
+       
+       
+       
+        width: 100%;
+
+    }
+    li{
+        display: flex;
+        padding: 30px;
+        text-decoration: none;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .ppp{
+        text-align: center;
+        display: flex;
+        margin-left: 300px;
+        margin-bottom: 50px;
+    }
+    img{
+        padding-left: 30px;
+       
+       
+        
+    }
+    .h22{
+        margin-top: 40px;
+        padding-top: 40px;
+        color: rgb(250, 250, 250);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-large;
+        
+    }
+    .dia{
+        display: flex;
+        height: 130px;
+       
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        
+        
+    }
+    .iii{
+        display: flex;
+    }
+    .ii{
+        margin-bottom: 80px;
+        display: flex;
+        padding-left: 40px;
+        display: inline-block;
+
+        
+
+    }
+    .onana{
+        width: 500px;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(57, 122, 122);
+    }
+    .faf{
+        font-size: xx-large;
+        color: rgb(0, 0, 0);
+    }
+    .ppp h1{
+        color: aqua;
+    }
+    .lll h1 span{
+        color: aqua;
+    }
+    body{
+        background-image: url("https://t4.ftcdn.net/jpg/06/19/47/97/240_F_619479736_JdqVy9JMIclSNFr3sf4XnEEwPjB0d6NI.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .ddd{
+        color: black;
+        text-align: center;
+    }
+    h2{
+        font-size: xx-large;
+        color: rgb(225, 233, 226);
+        background-color: rgb(22, 26, 26);
+    }
+    h1:hover{
+    
+    color: rgb(0, 255, 13);
+}
+h2:hover{
+    color: rgb(30, 255, 0);
+}
+    
+    
+    
+
+</style>
+</head>
+<body>
+    <div class="oo">
+        <ul>
+            <li><a href="index.html"><h1>HOME</h1></a></li>
+            <li><a href="about.html"><h1>ABOUT</h1></a></li>
+            <li><a href="contat.html"><h1>CONTACT</h1></a></li>
+            <li><a href="service.html"><h1>SERVICES</h1></a></li>
+            <br>
+            <br>
+            <br>
+            <br>
+            Hangry? send as a"YES" and you'll get a descount coupon for your next
+            <img src="data:image/png;base64,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" alt="">
+          
+            
+            
+        </ul>
+        
+        <br>
+        <br><br><br><br>
+        <br><br>
+        <br><br><br><br>
+        <br>
+        
+    </div>
+
+
+
+
+
+
+    <div class="ddd">
+        <img style="margin-top: 0%;" src="https://t4.ftcdn.net/jpg/03/53/83/93/240_F_353839328_nYW2cp3gIjpJD9Supel4HsGVU9Ear4iV.jpg" alt="">
+
+        <h1 style="color: rgb(255, 255, 255);  height: 90px; font-size: xx-large;">coming soon</h1>
+        <h2>
+            helloooo!!! akkaam jirtuu <br>registration is just around the corner---- <br>stay tuned for the upcoming details!!
+            
+        </h1>
+        <br>
+        <h2>
+            registration for the upcomingevent will be openinig soon!!!!
+        </h2>
+        <br>
+        <h2>
+            keep an eye out of the announcement about registration openingin the near future
+        </h2>
+    </div>
+    
+</body>
+</html>
